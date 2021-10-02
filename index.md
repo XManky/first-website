@@ -1,37 +1,43 @@
-## Welcome to GitHub Pages
+# Readme
+### Aim
+Make a snake game
+### Objectives
+- A very cool Background
+- A snake that increases in length upon eating a grain of food
+- Walls that if the snake touches them, it dies
+- When the snake touches itself, it dies
+- Scoring
 
-You can use the [editor on GitHub](https://github.com/XManky/first-website/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+### Additional Features:
+- Levels with different wall structure
+- There should be one level withouth walls such that the snake can go through left edge and come in through the right or vice versa
+- Different tyes of food - power food that gives speed, special food that allows it to go through itself, big size?
 
-Whenever you commit to this repository, GitHub Pages will run [yotube](https://www.youtube.com/) to rebuild the pages in your site, from the content in your Markdown files.
+# How to implement
+1. Think of the logic
+2. Write [Pseudocode](https://www.geeksforgeeks.org/how-to-write-a-pseudo-code/)
+3. Get reference from existing snake game on python and try to understand it
+4. Make changes to your pseudocode if needed
+5. Start coding
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+# Learning points
+- Usage of git and github
+- Programming logic and writing pseudocode
+- Python coding
+- Usage of external python libraries
+- Much better experience and understanding of python
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/XManky/first-website/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+# Objectives(for coding)
+- Creating the screen
+- Create the background
+- Create the snake(starts with 3 units of length)
+- Make the snake move in an upwards direction so that if it goes through the top of the screen it comes back in from the bottom(and vice versa)
+- Similarly, from left to right and vice versa
+- Make the snake move based on the keyboard input
+- Add tiny grains of food(1 unit each) randomly on the screen every 5 seconds
+- Everytime the grain gets eaten it will disappear and randomly appear somewhere else
+- When a grain of food is eaten, the snake will increase its length by 1
+- If the snake touches itslef it dies
+- If the snake dies, "game over" shows up
+- Option to start again will appear 
